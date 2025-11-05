@@ -1,4 +1,4 @@
-# 🌡️ ESP32 Automated Thermometer Alarm v3
+# 🌡️ ESP32 Automated Thermometer Alarm v4.1
 
 An IoT-based **real-time temperature monitoring and chemical management system** built using the **ESP32**, **MAX6675 thermocouple**, **LittleFS web hosting**, **WebSocket communication**, and **Supabase cloud integration**.
 
@@ -72,13 +72,15 @@ This site automatically retrieves your latest ESP32 IP from Supabase for easy ac
 
 ## 🧩 File Structure
 
-📦 ESP32_Automated_Thermometer_Alarm_v3
-├── automated_thermometer_alarm_v3.ino # ESP32 firmware
+```text
+ESP32_Automated_Thermometer_Alarm_v3/
+├── automated_thermometer_alarm_v3.ino   # ESP32 firmware
 ├── data/
-│ ├── index.html # Web dashboard UI
-│ ├── script.js # Front-end logic & Supabase sync
-│ ├── stylesheet.css # Styling and design
+│   ├── index.html                       # Web dashboard UI
+│   ├── script.js                        # Front-end logic & Supabase sync
+│   ├── stylesheet.css                   # Styling and design
 └── README.md
+
 
 
 ---
