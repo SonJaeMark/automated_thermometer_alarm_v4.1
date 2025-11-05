@@ -80,7 +80,7 @@ ESP32_Automated_Thermometer_Alarm_v3/
 │   ├── script.js                        # Front-end logic & Supabase sync
 │   ├── stylesheet.css                   # Styling and design
 └── README.md
-
+```
 
 
 ---
